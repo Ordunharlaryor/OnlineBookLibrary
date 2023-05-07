@@ -1,0 +1,12 @@
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\bin\Debug\net6.0\Library.Shared.deps.json
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\bin\Debug\net6.0\Library.Shared.dll
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\bin\Debug\net6.0\Library.Shared.pdb
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\Library.Shared.csproj.AssemblyReference.cache
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\Library.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\Library.Shared.AssemblyInfoInputs.cache
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\Library.Shared.AssemblyInfo.cs
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\Library.Shared.csproj.CoreCompileInputs.cache
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\Library.Shared.dll
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\refint\Library.Shared.dll
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\Library.Shared.pdb
+C:\Users\alabi\Desktop\libraryproject\Library.Shared\obj\Debug\net6.0\ref\Library.Shared.dll

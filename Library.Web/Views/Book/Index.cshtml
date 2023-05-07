@@ -1,0 +1,32 @@
+﻿@using Library.Domain.Entities
+@model List<Book>
+
+<h1>Book List</h1>
+<p>
+    <a asp-controller="Book" asp-action="Create">Add Book</a>
+    <a asp-controller="Book" asp-action="Index">Refresh</a>
+</p>
+
+<div class="row">
+    @foreach (var book in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="@book.ImageUrl" class="card-img-top" alt="@book.Title">
+                <div class="card-body">
+                    <h5 class="card-title">@book.Title</h5>
+                    <p class="card-text">@book.Author</p>
+                    <p class="card-text">@book.YearPublished</p>
+                    <p class="card-text">@book.ISBN</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                    @*<a asp-controller="Book" asp-action="" asp-route-userId="@user.Id">Delete</a>*@
+                    <a asp-controller="Book" asp-action="DeleteBook" asp-route-Id="@book.Id">Delete</a>
+                    @*<form method="post" action="@Url.Action("Delete", "Book")">
+                        <input type="hidden" name="id" value="@book.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>*@
+                </div>
+            </div>
+        </div>
+    }
+</div>

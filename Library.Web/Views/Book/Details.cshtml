@@ -1,0 +1,12 @@
+﻿@using Library.Domain.Entities
+@model Book
+
+@if (Model != null) {
+    <h2>@Model.Title</h2>
+    <p>@Model.Author</p>
+    <p>@Model.YearPublished.ToShortDateString()</p>
+    <p>@Model.ISBN</p>
+    <p>@Model.Publisher</p>
+} else {
+    <p>Sorry, this book could not be found.</p>
+}
